@@ -8,7 +8,7 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -17,24 +17,14 @@
 <body>
   <script src="js/scripts.js"></script>
   
-  <h1>This is the template for chronologically.</h1>
-  <table style="width:100%">
-    <tr>
-      <th>Left Date</th>
-      <th>Timeline Column</th> 
-      <th>Right Date</th>
-    </tr>
-    <tr>
-      <td>Date 1: Filler text</td>
-      <td>Blank</td> 
-      <td>Blank</td>
-    </tr>
-    <tr>
-      <td>Blank</td>
-      <td>Blank</td> 
-      <td>Date 2: Electric Boogaloo</td>
-    </tr>
-  </table>
+  
+  <div id="header"><h1>This is the template for chronologically.</h1></div>
+  <div id="container">
+    <div id="center" class="column">Center</div>
+    <div id="left" class="column">Left</div>
+    <div id="right" class="column">Right</div>
+    </div>
+  <div id="footer"></div>
   
 </body>
 </html>
